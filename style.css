@@ -1,0 +1,50 @@
+#navbar{
+ display:  flex;
+ justify-content: space-around;
+}
+#navimg{
+ margin-top: -15px;
+ height: 100%;
+ width: 65%;
+}
+#navbar>div:nth-child(1){
+ margin-top: 10px;
+}
+
+input{
+ 
+ width:500px;
+ height: 35px;
+}
+#btn{
+
+margin-left: -4px;
+ width: 60px;
+ height: px;
+ padding: 11px;
+ 
+}
+
+#myimg{
+ border-radius: 50%;
+ height: 32px;
+ width: 32px;
+}
+#show_videos{
+ width: 95%;
+
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 1% ;
+ 
+}
+#thum{
+ height: 137px;
+ width: 270px;
+}
+#homepage{
+ display: flex;
+ justify-content: space-between;
+}
+
+ 

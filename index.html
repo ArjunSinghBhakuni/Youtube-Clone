@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Youtube</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!----Navbar start from here-->
+  <div id="navbar">
+   
+    <div><i class="fa fa-light fa fa-bars"></i></div>
+    <div><span><i class="fab fa-youtube"></i></span> <span>YouTube</span>
+    <span>IN</span></div>
+  
+    <div id="searchBar">
+        <input type="text" id="query" placeholder="Search">
+        <button onclick="search_videos()" id="btn"><i class="fa fa-thin fa fa-magnifying-glass"></i></button>
+    </div> 
+    <div> <i class="fa-regular fa-bell"></i> </div>
+    <div><img id="myimg" src="https://yt3.ggpht.com/7xUN6THF4d9h2DveZcwAxMqNFg3pnn10-iNPeU9plNJ-QZi8Vch6l0i_YSpeh8Bh35vhZfOJ3A=s88-c-k-c0x00ffffff-no-rj-mo" alt=""> </div>
+   
+  </div>
+ <div id="homepage"> 
+    <div>
+      <P>Home</P>
+      <P>Explore</P>
+      <P>shorts</P>
+      <P>Subs</P>
+      <P>libary</P>
+      <P></P>
+    </div>
+    <div id="show_videos"></div>
+ </div>
+</body>
+</html>
+
+<script src="index.js"></script>
